@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[forecho]]></title>
+  <subtitle><![CDATA[Writing For My Life]]></subtitle>
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://i.forecho.com/"/>
+  <updated>2014-06-04T16:26:43.976Z</updated>
+  <id>http://i.forecho.com/</id>
+  
+  <author>
+    <name><![CDATA[forecho]]></name>
+    <email><![CDATA[caizhenghai@gmail.com]]></email>
+  </author>
+  
+  <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[我的 Chrome 插件集]]></title>
+    <link href="http://i.forecho.com/2014/06/04/about-my-chrome-plugin/"/>
+    <id>http://i.forecho.com/2014/06/04/about-my-chrome-plugin/</id>
+    <published>2014-06-04T13:17:44.000Z</published>
+    <updated>2014-06-04T15:45:48.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="遇见_Chrome_浏览器">遇见 Chrome 浏览器</h2>
+<p>在大一的时候才开始拥有一台属于自己的电脑，那个时候买的还是二手台式机。之前的我可以说算是电脑小白了，根本就没有浏览器这个概念，就跟现在绝大多数的中国网民一样。只知道有个图标你点一下就能上网，后来才知道它就是 IE 浏览器。</p>
+<p>也不知道什么时候开始什么原因，让我知道了 Chrome 浏览器，初次使用的时候，非常的不习惯。不习惯以下几点：</p>
+<ol>
+<li>以标签形式展现一个网页。</li>
+<li>头部很短。</li>
+<li>界面极简。（但功能强大）</li>
+</ol>
+<p>其实用了你才发现这些都是它的优点，再加上它的一个帐号多平台同步功能和插件机制，我再也离不开它了。可以说 Chrome 浏览器把 「Don’t Make Me Think」发挥的淋漓尽致，这一点都不为过。</p>
+<p>国内的什么猎豹浏览器，什么360极速浏览器都是在用 Chromium （Chrome 浏览器背后的引擎）基础上加一个「外壳」而已，但是就是用不习惯，用户体验太差。</p>
+<h2 id="「普遍」的插件">「普遍」的插件</h2>
+<p>这里是指使用率很高的插件。</p>
+<h3 id="AdBlock"><a href="https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom" target="_blank">AdBlock</a></h3>
+<p>这个是用来屏蔽广告的，必备插件，妈妈再也不用担心突然进入某个页面突然广告乱飞的情况了。再也不用担心使用百度时看到恶心的 flash 和大图广告了。</p>
+<p>PS：有一个值得注意的情况：如果你是一个开发者，也就是工程师在写代码开发页面的时候，有可能启用这个插件导致一些因屏蔽广告而导致的一些错位什么的问题，留一个心眼就好了。</p>
+<h3 id="Proxy_SwitchySharp"><a href="https://chrome.google.com/webstore/detail/proxy-switchysharp/dpplabbmogkhghncfbfdeeokoefdjegm" target="_blank">Proxy SwitchySharp</a></h3>
+<p>翻墙必备插件，翻墙教程我这儿有一个最简单的方法，屡试不爽。</p>
+<h3 id="豆藤_Bean_vine"><a href="https://chrome.google.com/webstore/detail/%E8%B1%86%E8%97%A4-bean-vine/dnpdkjaahjndfknkobdfakmaiepcoabo" target="_blank">豆藤 Bean vine</a></h3>
+<p>如果你经常使用豆瓣的话，用了这个插件之后你就会停不下了的。</p>
+<a id="more"></a>
+
+<h3 id="购物党"><a href="https://chrome.google.com/webstore/detail/%E8%B4%AD%E7%89%A9%E5%85%9A%E5%85%A8%E7%BD%91%E8%87%AA%E5%8A%A8%E6%AF%94%E4%BB%B7%E5%B7%A5%E5%85%B7%EF%BC%9A%E6%B7%98%E5%AE%9D%E4%BA%AC%E4%B8%9C%E6%AF%94%E4%BB%B7%E3%80%81180%E5%A4%A9%E4%BB%B7%E6%A0%BC/jgphnjokjhjlcnnajmfjlacjnjkhleah?hl=zh-CN" target="_blank">购物党</a></h3>
+<p>买东西的时候可以商品查看历史价格，非常实用。同类插件还有<a href="https://chrome.google.com/webstore/detail/%E6%83%A0%E6%83%A0%E8%B4%AD%E7%89%A9%E5%8A%A9%E6%89%8B/ohjkicjidmohhfcjjlahfppkdblibkkb?hl=zh-CN" target="_blank">惠惠网购助手</a>。</p>
+<h3 id="印象笔记·剪藏"><a href="https://chrome.google.com/webstore/detail/evernote-web-clipper/pioclpoplcdbaefihamjohnefbikjilc" target="_blank">印象笔记·剪藏</a></h3>
+<p>印象笔记，一款非常强大的多平台笔记本，最强大的功能，也就是我最喜欢的功能就是这个。如果我遇到一个问题，然后通过 Google 搜索找到解决办法，那么我会把这篇文章剪藏到我的印象笔记里面，非常实用，以防下次查阅。</p>
+<h3 id="印象笔记·悦读"><a href="https://chrome.google.com/webstore/detail/clearly/iooicodkiihhpojmmeghjclgihfjdjhj" target="_blank">印象笔记·悦读</a></h3>
+<p>看文章的时候，可能会受到旁边图片的干扰，点一下这个台灯图标，会重新排版内容，非常干净，舒服，那么现在你就可以安心的看文章了吧。</p>
+<h3 id="Readability"><a href="https://chrome.google.com/webstore/detail/readability/oknpjjbmpnndlpmnhmekjpocelpnlfdi" target="_blank">Readability</a></h3>
+<p>稍后阅读功能，有时候一篇文章在电脑上看到而当时有不适合阅读的时候，那么此款插件正式你需要的，支持多平台，一键把文章保存到云端。</p>
+<p>当初使用它，是因为刚买了一个 Kindle，而这个可以一键把文章发送到 Kindle。而现在我使用它的原因就因为我爱上它的 UI 了。</p>
+<h3 id="Save_to_Pocket"><a href="https://chrome.google.com/webstore/detail/save-to-pocket/niloccemoadcdkdjlinkgdfekeahmflj" target="_blank">Save to Pocket</a></h3>
+<p>又一款稍后阅读软件，我拿来备用的。功能可能比 Readability 稍强一点，但是 UI 没有 Readability 好。</p>
+<h3 id="TabCloud"><a href="https://chrome.google.com/webstore/detail/tabcloud/npecfdijgoblfcgagoijgmgejmcpnhof" target="_blank">TabCloud</a></h3>
+<p>保存标签功能，支持 Google 帐号登录，也是非常实用。</p>
+<p>想象一下你现在正在找资料解决问题，然后突然有事要关机或者换电脑了，那么有了这个插件，你就不用担心你现在打开的页面丢失了。</p>
+<h3 id="优酷去广告_插件"><a href="https://chrome.google.com/webstore/detail/%E4%BC%98%E9%85%B7%E5%8E%BB%E5%B9%BF%E5%91%8A-%E6%8F%92%E4%BB%B6%E5%B7%B2%E6%94%AF%E6%8C%81%E4%BC%98%E9%85%B7%E3%80%81%E5%9C%9F%E8%B1%86%E3%80%81%E7%88%B1%E5%A5%87%E8%89%BA%E3%80%81%E4%B9%90%E8%A7%86%E7%BD%91%E3%80%81/peddmpbdeelbhgfjnmlkfgeddigonncm" target="_blank">优酷去广告 插件</a></h3>
+<p>看视频去广告，你懂的。配置说明很简单。备用插件<a href="https://chrome.google.com/webstore/detail/adkill-and-media-download/lcibdonokophlabplhpmmmjjbgohgcok" target="_blank">Adkill and Media Download</a>(此插件可以下载视频)。</p>
+<h3 id="百度搜索"><a href="https://chrome.google.com/webstore/detail/%E7%99%BE%E5%BA%A6%E6%90%9C%E7%B4%A2/lncoipkfcckgfhbmkjmfkfenoonmnjcd" target="_blank">百度搜索</a></h3>
+<p>至于为什么有这个坑爹的插件我要解释下，因为 Chrome 浏览器默认的搜索设置成 Google 了，虽然翻墙了，但是极少数情况下还是访问慢，你懂的。</p>
+<p>用了这个插件你就可以选中页面的某个文字，然后直接右键「百度一下」直接搜索，省掉了「复制文字」、「新建标签」、「输入百度网址」、「粘贴文字」搜索，真是懒人必备。</p>
+<h3 id="爱库网快速收藏工具"><a href="https://chrome.google.com/webstore/detail/%E7%88%B1%E5%BA%93%E7%BD%91%E5%BF%AB%E9%80%9F%E6%94%B6%E8%97%8F%E5%B7%A5%E5%85%B7/cfchejhoffjbajclionfhafcgikfmcnp" target="_blank">爱库网快速收藏工具</a></h3>
+<p>对于比较喜欢收藏书签的人，这绝壁是个好插件。</p>
+<h3 id="Google_Mail_Checker"><a href="https://chrome.google.com/webstore/detail/google-mail-checker/mihcahmgecmbnbcchbopgniflfhgnkff" target="_blank">Google Mail Checker</a></h3>
+<p>收 Google Mail 邮件的。</p>
+<h3 id="HTML5高清二维码生成器"><a href="https://chrome.google.com/webstore/detail/html5%E9%AB%98%E6%B8%85%E4%BA%8C%E7%BB%B4%E7%A0%81%E7%94%9F%E6%88%90%E5%99%A8/oadofllcbigaobbjlabbgpddbchjdpki" target="_blank">HTML5高清二维码生成器</a></h3>
+<p>有时候一个网页需要在手机端访问，现在支持二维码功能的 App 那么多，再加上这个插件，这件事情就变得再简单不过了。</p>
+<h3 id="快捷翻译(中英文)"><a href="https://chrome.google.com/webstore/detail/%E5%BF%AB%E6%8D%B7%E7%BF%BB%E8%AF%91%E4%B8%AD%E8%8B%B1%E6%96%87/nehpphcgppmiinlfceebcgikcpcjnbnl" target="_blank">快捷翻译(中英文)</a></h3>
+<p>双击某个单词，自动翻译，非常方便。</p>
+<h2 id="开发者插件">开发者插件</h2>
+<p>开发者插件是针对我自己平常开发使用的插件。</p>
+<h3 id="JSONView"><a href="https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc" target="_blank">JSONView</a></h3>
+<p>当页面输出纯 JSON 数据的时候，会自动帮你处理数据显示的格式，嗯，很方便。</p>
+<h3 id="PHP_Ninja_Manual"><a href="https://chrome.google.com/webstore/detail/php-ninja-manual/clbhjjdhmgeibgdccjfoliooccomjcab" target="_blank">PHP Ninja Manual</a></h3>
+<p>手册用经常查才能熟，遇见不会的，疑惑的赶紧查。</p>
+<h3 id="Postman_-_REST_Client"><a href="https://chrome.google.com/webstore/detail/postman-rest-client/fdmmgilgnpjigdojojpjoooidkmcomcm" target="_blank">Postman - REST Client</a></h3>
+<p>可以模拟 POST 请求，测试的时候很方便。</p>
+<h3 id="smartF5"><a href="https://chrome.google.com/webstore/detail/smartf5/pgglpnfdiigfapjinhfgnbckibpdbbeo" target="_blank">smartF5</a></h3>
+<p>有了这个插件之后你修改过的 HTML、CSS，JavaScript 文件它都有监听到，自动刷新页面。懒人必备，妈妈再也不用担心我的 F5 键了。</p>
+<p>PS：仅支持 <code>file:///</code> 开头的路径。</p>
+<h3 id="Live_Reload"><a href="https://chrome.google.com/webstore/detail/live-reload/pccddenngcbofbojodpghgpbheckgddn" target="_blank">Live Reload</a></h3>
+<p>腾讯出品。功能跟上面的差不多，但是支持本地搭建的服务器环境访问的页面。但是暂不支持通过 <code>file://</code> 打开的页面，此插件和上面的 smartF5 插件配置使用，非常不错。</p>
+<h2 id="最后">最后</h2>
+<p>整理这些插件，写这篇文章真是花时间。但是是值得的，这篇文章会持续更新。</p>
+<p>扩展阅读：<br><a href="http://www.zhihu.com/question/23228162" target="_blank">有哪些少为人知却非常有意思、好用的 Chrome 扩展？</a><br><a href="http://www.zhihu.com/question/20564451" target="_blank">Chrome 浏览器的哪些设计符合「Don’t Make Me Think」原则？</a><br><a href="http://jianshu.io/p/8819496c1c86" target="_blank">教你快速玩转 Chrome 浏览器</a></p>
+]]></content>
+    <summary type="html"><![CDATA[<h2 id="遇见_Chrome_浏览器">遇见 Chrome 浏览器</h2>
+<p>在大一的时候才开始拥有一台属于自己的电脑，那个时候买的还是二手台式机。之前的我可以说算是电脑小白了，根本就没有浏览器这个概念，就跟现在绝大多数的中国网民一样。只知道有个图标你点一下就能上网，后来才知道它就是 IE 浏览器。</p>
+<p>也不知道什么时候开始什么原因，让我知道了 Chrome 浏览器，初次使用的时候，非常的不习惯。不习惯以下几点：</p>
+<ol>
+<li>以标签形式展现一个网页。</li>
+<li>头部很短。</li>
+<li>界面极简。（但功能强大）</li>
+</ol>
+<p>其实用了你才发现这些都是它的优点，再加上它的一个帐号多平台同步功能和插件机制，我再也离不开它了。可以说 Chrome 浏览器把 「Don’t Make Me Think」发挥的淋漓尽致，这一点都不为过。</p>
+<p>国内的什么猎豹浏览器，什么360极速浏览器都是在用 Chromium （Chrome 浏览器背后的引擎）基础上加一个「外壳」而已，但是就是用不习惯，用户体验太差。</p>
+<h2 id="「普遍」的插件">「普遍」的插件</h2>
+<p>这里是指使用率很高的插件。</p>
+<h3 id="AdBlock"><a href="https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom" target="_blank">AdBlock</a></h3>
+<p>这个是用来屏蔽广告的，必备插件，妈妈再也不用担心突然进入某个页面突然广告乱飞的情况了。再也不用担心使用百度时看到恶心的 flash 和大图广告了。</p>
+<p>PS：有一个值得注意的情况：如果你是一个开发者，也就是工程师在写代码开发页面的时候，有可能启用这个插件导致一些因屏蔽广告而导致的一些错位什么的问题，留一个心眼就好了。</p>
+<h3 id="Proxy_SwitchySharp"><a href="https://chrome.google.com/webstore/detail/proxy-switchysharp/dpplabbmogkhghncfbfdeeokoefdjegm" target="_blank">Proxy SwitchySharp</a></h3>
+<p>翻墙必备插件，翻墙教程我这儿有一个最简单的方法，屡试不爽。</p>
+<h3 id="豆藤_Bean_vine"><a href="https://chrome.google.com/webstore/detail/%E8%B1%86%E8%97%A4-bean-vine/dnpdkjaahjndfknkobdfakmaiepcoabo" target="_blank">豆藤 Bean vine</a></h3>
+<p>如果你经常使用豆瓣的话，用了这个插件之后你就会停不下了的。</p>
+]]></summary>
+    
+      <category term="工具控" scheme="http://i.forecho.com/tags/%E5%B7%A5%E5%85%B7%E6%8E%A7/"/>
+    
+      <category term="技术栈" scheme="http://i.forecho.com/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[关于本博客的使用]]></title>
+    <link href="http://i.forecho.com/2014/05/26/about-this-blog/"/>
+    <id>http://i.forecho.com/2014/05/26/about-this-blog/</id>
+    <published>2014-05-26T12:55:51.000Z</published>
+    <updated>2014-05-26T13:40:36.000Z</updated>
+    <content type="html"><![CDATA[<p>这个博客不是我的一个博客，之前用了3年的 WordPress 了，这个博客也刚开始用，目前只是为了体验以 Markdown 写作为主。<br>那么前几天也试过用 Hexo 的插件把我之前博客的文章有导入，但是后来又把导入的文章全部删掉了。想着借这次机会从头来过。</p>
+<h2 id="那么这个博客用来写什么呢？">那么这个博客用来写什么呢？</h2>
+<p>如你所见，这个博客分两大类 - 技术栈和人文栈。<br>身为程序员技术的成长当然是必不可少的，但是同时也要看去看一下非技术类的书，去思考心理学、哲学，这将会是一件很有趣的事情。<br>除了这些外，我还会写一个读书笔记。</p>
+<h2 id="博客的说明">博客的说明</h2>
+<p>博客不会再需要其他分类了，所有的文章主要靠标签来区分管理。所有的文章都会是原创。<br>用着 Markdown 的好处就是回归写作的初心，我们只需要关注写作本身就可以了。</p>
+<p>好了，我说完了，以上皆是废话。</p>
+]]></content>
+    
+    
+      <category term="blog" scheme="http://i.forecho.com/tags/blog/"/>
+    
+      <category term="人文栈" scheme="http://i.forecho.com/categories/%E4%BA%BA%E6%96%87%E6%A0%88/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[使用 Hexo 搭建一个免费的博客]]></title>
+    <link href="http://i.forecho.com/2014/05/21/use-hexo/"/>
+    <id>http://i.forecho.com/2014/05/21/use-hexo/</id>
+    <published>2014-05-21T12:46:48.000Z</published>
+    <updated>2014-05-26T13:12:12.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="我为什么要使用_Hexo_搭建一个博客？">我为什么要使用 Hexo 搭建一个博客？</h2>
+<p>之前一直在使用 WordPress 和 VPS 搭建了一个博客，并且还抽时间自己写了一个 WordPress 主题，作为自用。博客一直用到现在，用了3年多了，虽然写的不多，质量也不算高。但是已经养成写博客的习惯了。我相信这个习惯会让我受用一生。</p>
+<p>但是 VPS 不稳定（便宜货，不靠谱，被坑过），所以我有装备份 WordPress 的插件，慢慢觉得也很麻烦。后来接触了 Markdown，作为一个标记语言，很好用，简洁。发现自己平常写文章的时候用的格式也不多，写文章的时候不能忍受为了给某个文字加粗，而去动用鼠标去点编辑器加粗的图标，这样显得很不优雅，也没有效率。而作为标记语言的 Markdown 缺很轻松的实现文本格式。</p>
+<p>WordPress 文章存放在数据库中，感觉很不方便。对博客而言，使用文档存放文章，方便随时本地查阅是再好不过了。对，就是可以离线本地查阅，非常的好。就速度方面，使用数据库的 WordPress 显然没有直接读取静态文件的快。</p>
+<p>综上所述，我决定去尝试其他可代替 WordPress 同时又能解决我上述顾虑的产品。</p>
+<p>然后经好基友介绍我遇到了<a href="http://picocms.org/" target="_blank">Pico</a>，这个项目是一个 PHP 项目，这就意味着环境部署方面非常的方便。并且此项目最大的特点是直接读取 Markdown 文档，访问页面的时候把 Markdown 生成 HTML 格式的，此项目我折腾了两天，包括搭建看文档，自己移植一个主题过来，眼看一个文章详细页面就用移植完成的时候，发现我写的一个代码块直接给我在最外层加了一个 code 标签而已了，结果就是这个函数变成了一行，身为处女座，这事绝对不能让它发生，于是我放弃了此项目，连解决办法都没去找。</p>
+<p>然后我就遇到了 Hexo，很早之前有听过这个项目，但是没搭建过。只是在 GitHub 搭建过一次 <a href="http://jekyllrb.com/" target="_blank">Jekyll</a>，然后就没有然后了。Hexo 也满足我之前的要求，并且还可以结合 GitHub Pages 作为免费空间使用。刚好看到这个教程教你如何搭建 Hexo - <a href="http://jianshu.io/p/05289a4bc8b2" target="_blank">如何搭建一个独立博客——简明Github Pages与Hexo教程</a>，于是，OK 就是它了。</p>
+<a id="more"></a>
+
+<h2 id="如何搭建？">如何搭建？</h2>
+<p>其实我上面分享的外链教程，已经讲的很清楚了，但是事实上我搭建这个博客还是花了2天，因为我之前对 node.js 和 Hexo 没有什么概念，遇到了一些比较低级的认知错误，直接导致我卡住了，直到昨天通过 Google 到另一篇文章解决了。</p>
+<p>那么，我还是说说我的步骤吧（基本的 Git 使用我这篇文章就不教了）：</p>
+<h3 id="安装_Hexo">安装 Hexo</h3>
+<p><figure class="highlight"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre><span class="variable">$ </span>npm install -g hexo
+</pre></td></tr></table></figure></p>
+<h3 id="部署Hexo">部署Hexo</h3>
+<p><figure class="highlight"><table><tr><td class="gutter"><pre>1
+2
+</pre></td><td class="code"><pre><span class="variable">$ </span>hexo init 文件夹名
+<span class="variable">$ </span>npm install
+</pre></td></tr></table></figure></p>
+<h3 id="运行_Hexo">运行 Hexo</h3>
+<p><figure class="highlight"><table><tr><td class="gutter"><pre>1
+2
+</pre></td><td class="code"><pre><span class="variable">$ </span>hexo g
+<span class="variable">$ </span>hexo s
+</pre></td></tr></table></figure><br>然后到浏览器输入 localhost:4000 就可以看到一个博客了。</p>
+<h2 id="说说我遇到的坑（Hexo_结合_GitHub_Pages_的使用）">说说我遇到的坑（Hexo 结合 GitHub Pages 的使用）</h2>
+<p>本地运行 OK 了，但是怎么把项目部署到 GitHub Pages 呢？刚开始我还按照以前 GitHub 的使用习惯，先在 GitHub 上新建一个项目 - forecho.github.io，然后把 hexo 文件夹（我本地 Hexo 项目文件夹）直接推送到 GitHub 上，然后新建 CNAME 文件，然后去设置域名解析，然后一直傻等着访问的时刻，但是一直是 404 页面，坑爹。<br>试了几次还是不行，然后一直是我 CNAME 文件有问题，一直是域名解析有问题。最后才原来是自己傻B了，然后没有去看 Hexo 的配置说明，以为本地能运行然后把本地文件丢到 GitHub 上，然后就能直接用了。</p>
+<h2 id="填坑，Hexo_搭建成功">填坑，Hexo 搭建成功</h2>
+<p>首先先去掉我之后给项目加的 <code>git</code>，我的办法是删除 <code>.git</code> 文件夹。<br>然后去看 hexo（项目跟目录）文件夹下面的配置文件<code>_config.yml</code>，然后注意最后的代码，设置如下：</p>
+<p><figure class="highlight"><table><tr><td class="gutter"><pre>1
+2
+3
+4
+5
+</pre></td><td class="code"><pre><span class="label">deploy:</span>
+  type: github
+  repository: git@github<span class="preprocessor">.com</span>:你的帐号/你的帐号<span class="preprocessor">.github</span><span class="preprocessor">.com</span><span class="preprocessor">.git</span>
+  <span class="preprocessor"># 例如我的：repository: git@github.com:forecho/forecho.github.io.git</span>
+  branch: master
+</pre></td></tr></table></figure><br>然后执行命令：</p>
+<p><figure class="highlight"><table><tr><td class="gutter"><pre>1
+2
+3
+</pre></td><td class="code"><pre><span class="variable">$ </span>hexo clean
+<span class="variable">$ </span>hexo generate
+<span class="variable">$ </span>hexo deploy
+</pre></td></tr></table></figure><br>然后会自动帮我们把项目 push 到 GitHub 对应的项目里面了。如此简单。</p>
+<h2 id="大感谢">大感谢</h2>
+<p>博客搭建成功了，但这只是个开始。最后感谢下面文章让我的 Hexo 搭建顺利：</p>
+<ul>
+<li><p><a href="http://jianshu.io/p/05289a4bc8b2" target="_blank">如何搭建一个独立博客——简明Github Pages与Hexo教程</a></p>
+</li>
+<li><p><a href="http://blog.segmentfault.com/zhongbaitu/1190000000458953" target="_blank">使用Github搭建静态博客（Hexo）</a></p>
+</li>
+</ul>
+]]></content>
+    <summary type="html"><![CDATA[<h2 id="我为什么要使用_Hexo_搭建一个博客？">我为什么要使用 Hexo 搭建一个博客？</h2>
+<p>之前一直在使用 WordPress 和 VPS 搭建了一个博客，并且还抽时间自己写了一个 WordPress 主题，作为自用。博客一直用到现在，用了3年多了，虽然写的不多，质量也不算高。但是已经养成写博客的习惯了。我相信这个习惯会让我受用一生。</p>
+<p>但是 VPS 不稳定（便宜货，不靠谱，被坑过），所以我有装备份 WordPress 的插件，慢慢觉得也很麻烦。后来接触了 Markdown，作为一个标记语言，很好用，简洁。发现自己平常写文章的时候用的格式也不多，写文章的时候不能忍受为了给某个文字加粗，而去动用鼠标去点编辑器加粗的图标，这样显得很不优雅，也没有效率。而作为标记语言的 Markdown 缺很轻松的实现文本格式。</p>
+<p>WordPress 文章存放在数据库中，感觉很不方便。对博客而言，使用文档存放文章，方便随时本地查阅是再好不过了。对，就是可以离线本地查阅，非常的好。就速度方面，使用数据库的 WordPress 显然没有直接读取静态文件的快。</p>
+<p>综上所述，我决定去尝试其他可代替 WordPress 同时又能解决我上述顾虑的产品。</p>
+<p>然后经好基友介绍我遇到了<a href="http://picocms.org/" target="_blank">Pico</a>，这个项目是一个 PHP 项目，这就意味着环境部署方面非常的方便。并且此项目最大的特点是直接读取 Markdown 文档，访问页面的时候把 Markdown 生成 HTML 格式的，此项目我折腾了两天，包括搭建看文档，自己移植一个主题过来，眼看一个文章详细页面就用移植完成的时候，发现我写的一个代码块直接给我在最外层加了一个 code 标签而已了，结果就是这个函数变成了一行，身为处女座，这事绝对不能让它发生，于是我放弃了此项目，连解决办法都没去找。</p>
+<p>然后我就遇到了 Hexo，很早之前有听过这个项目，但是没搭建过。只是在 GitHub 搭建过一次 <a href="http://jekyllrb.com/" target="_blank">Jekyll</a>，然后就没有然后了。Hexo 也满足我之前的要求，并且还可以结合 GitHub Pages 作为免费空间使用。刚好看到这个教程教你如何搭建 Hexo - <a href="http://jianshu.io/p/05289a4bc8b2" target="_blank">如何搭建一个独立博客——简明Github Pages与Hexo教程</a>，于是，OK 就是它了。</p>
+]]></summary>
+    
+      <category term="node.js" scheme="http://i.forecho.com/tags/node.js/"/>
+    
+      <category term="技术栈" scheme="http://i.forecho.com/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <link href="http://i.forecho.com/2014/05/18/hello-world/"/>
+    <id>http://i.forecho.com/2014/05/18/hello-world/</id>
+    <published>2014-05-18T13:26:48.000Z</published>
+    <updated>2014-05-18T13:26:48.000Z</updated>
+    <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank">trobuleshooting</a> or you can ask me on <a href="https://github.com/tommy351/hexo/issues" target="_blank">GitHub</a>.</p>
+<h2 id="Quick_Start">Quick Start</h2>
+<h3 id="Create_a_new_post">Create a new post</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre>$ hexo new <span class="string">"My New Post"</span>
+</pre></td></tr></table></figure>
+
+<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank">Writing</a></p>
+<h3 id="Run_server">Run server</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre>$ hexo server
+</pre></td></tr></table></figure>
+
+<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank">Server</a></p>
+<h3 id="Generate_static_files">Generate static files</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre>$ hexo generate
+</pre></td></tr></table></figure>
+
+<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank">Generating</a></p>
+<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre>$ hexo deploy
+</pre></td></tr></table></figure>
+
+<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank">Deployment</a></p>
+]]></content>
+    
+    
+  </entry>
+  
+</feed>
