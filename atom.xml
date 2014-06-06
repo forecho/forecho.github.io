@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Writing For My Life]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://i.forecho.com/"/>
-  <updated>2014-06-04T16:26:43.976Z</updated>
+  <updated>2014-06-06T03:51:44.223Z</updated>
   <id>http://i.forecho.com/</id>
   
   <author>
@@ -13,6 +13,44 @@
   </author>
   
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[进阶高级 PHP]]></title>
+    <link href="http://i.forecho.com/2014/06/06/advanced-senior-php/"/>
+    <id>http://i.forecho.com/2014/06/06/advanced-senior-php/</id>
+    <published>2014-06-06T03:18:48.000Z</published>
+    <updated>2014-06-06T03:50:09.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="进阶资源">进阶资源</h2>
+<p>使用 PHP 也快3年之久了，对之「恨铁不成钢」。PHP 的优点又很多，如能快速建站，入门简单，框架一堆，开源项目一堆，市场需求很大，不愁找不到工作。但同样也是槽点很多，入门很简单但要深入学习却需要懂的很多，由于初期没有好的语言规范导致写出来的代码能运行，但是很不规范，导致各种怪异的代码都有，团队合作开发的时候，你就知道痛苦了。PHP 是一个脚本语言，但是如果想学好PHP，你必须要有很强的面向对象思维。目前自我感觉还是处于中级 PHPer，对于很多功能实现是没问题的，但是对其原理知之甚少，也没有好好看过一个优秀的开源项目。故作此文，希望多看一些开源代码，多借鉴，多学习，多做笔记。</p>
+<p>他山之石，可以攻玉。</p>
+<h3 id="书籍">书籍</h3>
+<ol>
+<li><a href="http://book.douban.com/subject/20370984/" target="_blank">《PHP 核心技术和最佳实现》</a></li>
+<li><a href="http://www.php-internals.com/" target="_blank">《深入理解 PHP 内核》</a></li>
+</ol>
+<h3 id="网站">网站</h3>
+<ol>
+<li><a href="http://wulijun.github.io/php-the-right-way/" target="_blank">PHP 之道</a></li>
+</ol>
+<h2 id="开源项目">开源项目</h2>
+<ol>
+<li><a href="http://cn.wordpress.org/" target="_blank">WordPress</a></li>
+</ol>
+<h2 id="框架">框架</h2>
+<ol>
+<li><a href="http://codeigniter.org.cn/" target="_blank">CodeIgniter</a></li>
+<li><a href="http://www.yiiframework.com/" target="_blank">Yii</a></li>
+</ol>
+]]></content>
+    
+    
+      <category term="PHP开发" scheme="http://i.forecho.com/tags/PHP%E5%BC%80%E5%8F%91/"/>
+    
+      <category term="干货" scheme="http://i.forecho.com/tags/%E5%B9%B2%E8%B4%A7/"/>
+    
+      <category term="技术栈" scheme="http://i.forecho.com/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[我的 Chrome 插件集]]></title>
