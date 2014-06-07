@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Writing For My Life]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://i.forecho.com/"/>
-  <updated>2014-06-06T04:01:57.718Z</updated>
+  <updated>2014-06-07T03:06:17.711Z</updated>
   <id>http://i.forecho.com/</id>
   
   <author>
@@ -52,11 +52,11 @@
   </entry>
   
   <entry>
-    <title><![CDATA[我的 Chrome 插件集]]></title>
-    <link href="http://i.forecho.com/2014/06/04/about-my-chrome-plugin/"/>
-    <id>http://i.forecho.com/2014/06/04/about-my-chrome-plugin/</id>
+    <title><![CDATA[我的 Chrome 扩展集]]></title>
+    <link href="http://i.forecho.com/2014/06/04/about-my-chrome-extension/"/>
+    <id>http://i.forecho.com/2014/06/04/about-my-chrome-extension/</id>
     <published>2014-06-04T13:17:44.000Z</published>
-    <updated>2014-06-04T15:45:48.000Z</updated>
+    <updated>2014-06-07T03:05:44.000Z</updated>
     <content type="html"><![CDATA[<h2 id="遇见_Chrome_浏览器">遇见 Chrome 浏览器</h2>
 <p>在大一的时候才开始拥有一台属于自己的电脑，那个时候买的还是二手台式机。之前的我可以说算是电脑小白了，根本就没有浏览器这个概念，就跟现在绝大多数的中国网民一样。只知道有个图标你点一下就能上网，后来才知道它就是 IE 浏览器。</p>
 <p>也不知道什么时候开始什么原因，让我知道了 Chrome 浏览器，初次使用的时候，非常的不习惯。不习惯以下几点：</p>
@@ -65,48 +65,48 @@
 <li>头部很短。</li>
 <li>界面极简。（但功能强大）</li>
 </ol>
-<p>其实用了你才发现这些都是它的优点，再加上它的一个帐号多平台同步功能和插件机制，我再也离不开它了。可以说 Chrome 浏览器把 「Don’t Make Me Think」发挥的淋漓尽致，这一点都不为过。</p>
+<p>其实用了你才发现这些都是它的优点，再加上它的一个帐号多平台同步功能和扩展机制，我再也离不开它了。可以说 Chrome 浏览器把 「Don’t Make Me Think」发挥的淋漓尽致，这一点都不为过。</p>
 <p>国内的什么猎豹浏览器，什么360极速浏览器都是在用 Chromium （Chrome 浏览器背后的引擎）基础上加一个「外壳」而已，但是就是用不习惯，用户体验太差。</p>
-<h2 id="「普遍」的插件">「普遍」的插件</h2>
-<p>这里是指使用率很高的插件。</p>
+<h2 id="「普遍」的扩展">「普遍」的扩展</h2>
+<p>这里是指使用率很高的扩展。</p>
 <h3 id="AdBlock"><a href="https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom" target="_blank">AdBlock</a></h3>
-<p>这个是用来屏蔽广告的，必备插件，妈妈再也不用担心突然进入某个页面突然广告乱飞的情况了。再也不用担心使用百度时看到恶心的 flash 和大图广告了。</p>
-<p>PS：有一个值得注意的情况：如果你是一个开发者，也就是工程师在写代码开发页面的时候，有可能启用这个插件导致一些因屏蔽广告而导致的一些错位什么的问题，留一个心眼就好了。</p>
+<p>这个是用来屏蔽广告的，必备扩展，妈妈再也不用担心突然进入某个页面突然广告乱飞的情况了。再也不用担心使用百度时看到恶心的 flash 和大图广告了。</p>
+<p>PS：有一个值得注意的情况：如果你是一个开发者，也就是工程师在写代码开发页面的时候，有可能启用这个扩展导致一些因屏蔽广告而导致的一些错位什么的问题，留一个心眼就好了。</p>
 <h3 id="Proxy_SwitchySharp"><a href="https://chrome.google.com/webstore/detail/proxy-switchysharp/dpplabbmogkhghncfbfdeeokoefdjegm" target="_blank">Proxy SwitchySharp</a></h3>
-<p>翻墙必备插件，翻墙教程我这儿有一个最简单的方法，屡试不爽。</p>
+<p>翻墙必备扩展，翻墙教程我这儿有一个最简单的方法，屡试不爽。</p>
 <h3 id="豆藤_Bean_vine"><a href="https://chrome.google.com/webstore/detail/%E8%B1%86%E8%97%A4-bean-vine/dnpdkjaahjndfknkobdfakmaiepcoabo" target="_blank">豆藤 Bean vine</a></h3>
-<p>如果你经常使用豆瓣的话，用了这个插件之后你就会停不下了的。</p>
+<p>如果你经常使用豆瓣的话，用了这个扩展之后你就会停不下了的。</p>
 <a id="more"></a>
 
 <h3 id="购物党"><a href="https://chrome.google.com/webstore/detail/%E8%B4%AD%E7%89%A9%E5%85%9A%E5%85%A8%E7%BD%91%E8%87%AA%E5%8A%A8%E6%AF%94%E4%BB%B7%E5%B7%A5%E5%85%B7%EF%BC%9A%E6%B7%98%E5%AE%9D%E4%BA%AC%E4%B8%9C%E6%AF%94%E4%BB%B7%E3%80%81180%E5%A4%A9%E4%BB%B7%E6%A0%BC/jgphnjokjhjlcnnajmfjlacjnjkhleah?hl=zh-CN" target="_blank">购物党</a></h3>
-<p>买东西的时候可以商品查看历史价格，非常实用。同类插件还有<a href="https://chrome.google.com/webstore/detail/%E6%83%A0%E6%83%A0%E8%B4%AD%E7%89%A9%E5%8A%A9%E6%89%8B/ohjkicjidmohhfcjjlahfppkdblibkkb?hl=zh-CN" target="_blank">惠惠网购助手</a>。</p>
+<p>买东西的时候可以商品查看历史价格，非常实用。同类扩展还有<a href="https://chrome.google.com/webstore/detail/%E6%83%A0%E6%83%A0%E8%B4%AD%E7%89%A9%E5%8A%A9%E6%89%8B/ohjkicjidmohhfcjjlahfppkdblibkkb?hl=zh-CN" target="_blank">惠惠网购助手</a>。</p>
 <h3 id="印象笔记·剪藏"><a href="https://chrome.google.com/webstore/detail/evernote-web-clipper/pioclpoplcdbaefihamjohnefbikjilc" target="_blank">印象笔记·剪藏</a></h3>
 <p>印象笔记，一款非常强大的多平台笔记本，最强大的功能，也就是我最喜欢的功能就是这个。如果我遇到一个问题，然后通过 Google 搜索找到解决办法，那么我会把这篇文章剪藏到我的印象笔记里面，非常实用，以防下次查阅。</p>
 <h3 id="印象笔记·悦读"><a href="https://chrome.google.com/webstore/detail/clearly/iooicodkiihhpojmmeghjclgihfjdjhj" target="_blank">印象笔记·悦读</a></h3>
 <p>看文章的时候，可能会受到旁边图片的干扰，点一下这个台灯图标，会重新排版内容，非常干净，舒服，那么现在你就可以安心的看文章了吧。</p>
 <h3 id="Readability"><a href="https://chrome.google.com/webstore/detail/readability/oknpjjbmpnndlpmnhmekjpocelpnlfdi" target="_blank">Readability</a></h3>
-<p>稍后阅读功能，有时候一篇文章在电脑上看到而当时有不适合阅读的时候，那么此款插件正式你需要的，支持多平台，一键把文章保存到云端。</p>
+<p>稍后阅读功能，有时候一篇文章在电脑上看到而当时有不适合阅读的时候，那么此款扩展正式你需要的，支持多平台，一键把文章保存到云端。</p>
 <p>当初使用它，是因为刚买了一个 Kindle，而这个可以一键把文章发送到 Kindle。而现在我使用它的原因就因为我爱上它的 UI 了。</p>
 <h3 id="Save_to_Pocket"><a href="https://chrome.google.com/webstore/detail/save-to-pocket/niloccemoadcdkdjlinkgdfekeahmflj" target="_blank">Save to Pocket</a></h3>
 <p>又一款稍后阅读软件，我拿来备用的。功能可能比 Readability 稍强一点，但是 UI 没有 Readability 好。</p>
 <h3 id="TabCloud"><a href="https://chrome.google.com/webstore/detail/tabcloud/npecfdijgoblfcgagoijgmgejmcpnhof" target="_blank">TabCloud</a></h3>
 <p>保存标签功能，支持 Google 帐号登录，也是非常实用。</p>
-<p>想象一下你现在正在找资料解决问题，然后突然有事要关机或者换电脑了，那么有了这个插件，你就不用担心你现在打开的页面丢失了。</p>
-<h3 id="优酷去广告_插件"><a href="https://chrome.google.com/webstore/detail/%E4%BC%98%E9%85%B7%E5%8E%BB%E5%B9%BF%E5%91%8A-%E6%8F%92%E4%BB%B6%E5%B7%B2%E6%94%AF%E6%8C%81%E4%BC%98%E9%85%B7%E3%80%81%E5%9C%9F%E8%B1%86%E3%80%81%E7%88%B1%E5%A5%87%E8%89%BA%E3%80%81%E4%B9%90%E8%A7%86%E7%BD%91%E3%80%81/peddmpbdeelbhgfjnmlkfgeddigonncm" target="_blank">优酷去广告 插件</a></h3>
-<p>看视频去广告，你懂的。配置说明很简单。备用插件<a href="https://chrome.google.com/webstore/detail/adkill-and-media-download/lcibdonokophlabplhpmmmjjbgohgcok" target="_blank">Adkill and Media Download</a>(此插件可以下载视频)。</p>
+<p>想象一下你现在正在找资料解决问题，然后突然有事要关机或者换电脑了，那么有了这个扩展，你就不用担心你现在打开的页面丢失了。</p>
+<h3 id="优酷去广告_扩展"><a href="https://chrome.google.com/webstore/detail/%E4%BC%98%E9%85%B7%E5%8E%BB%E5%B9%BF%E5%91%8A-%E6%8F%92%E4%BB%B6%E5%B7%B2%E6%94%AF%E6%8C%81%E4%BC%98%E9%85%B7%E3%80%81%E5%9C%9F%E8%B1%86%E3%80%81%E7%88%B1%E5%A5%87%E8%89%BA%E3%80%81%E4%B9%90%E8%A7%86%E7%BD%91%E3%80%81/peddmpbdeelbhgfjnmlkfgeddigonncm" target="_blank">优酷去广告 扩展</a></h3>
+<p>看视频去广告，你懂的。配置说明很简单。备用扩展<a href="https://chrome.google.com/webstore/detail/adkill-and-media-download/lcibdonokophlabplhpmmmjjbgohgcok" target="_blank">Adkill and Media Download</a>(此扩展可以下载视频)。</p>
 <h3 id="百度搜索"><a href="https://chrome.google.com/webstore/detail/%E7%99%BE%E5%BA%A6%E6%90%9C%E7%B4%A2/lncoipkfcckgfhbmkjmfkfenoonmnjcd" target="_blank">百度搜索</a></h3>
-<p>至于为什么有这个坑爹的插件我要解释下，因为 Chrome 浏览器默认的搜索设置成 Google 了，虽然翻墙了，但是极少数情况下还是访问慢，你懂的。</p>
-<p>用了这个插件你就可以选中页面的某个文字，然后直接右键「百度一下」直接搜索，省掉了「复制文字」、「新建标签」、「输入百度网址」、「粘贴文字」搜索，真是懒人必备。</p>
+<p>至于为什么有这个坑爹的扩展我要解释下，因为 Chrome 浏览器默认的搜索设置成 Google 了，虽然翻墙了，但是极少数情况下还是访问慢，你懂的。</p>
+<p>用了这个扩展你就可以选中页面的某个文字，然后直接右键「百度一下」直接搜索，省掉了「复制文字」、「新建标签」、「输入百度网址」、「粘贴文字」搜索，真是懒人必备。</p>
 <h3 id="爱库网快速收藏工具"><a href="https://chrome.google.com/webstore/detail/%E7%88%B1%E5%BA%93%E7%BD%91%E5%BF%AB%E9%80%9F%E6%94%B6%E8%97%8F%E5%B7%A5%E5%85%B7/cfchejhoffjbajclionfhafcgikfmcnp" target="_blank">爱库网快速收藏工具</a></h3>
-<p>对于比较喜欢收藏书签的人，这绝壁是个好插件。</p>
+<p>对于比较喜欢收藏书签的人，这绝壁是个好扩展。</p>
 <h3 id="Google_Mail_Checker"><a href="https://chrome.google.com/webstore/detail/google-mail-checker/mihcahmgecmbnbcchbopgniflfhgnkff" target="_blank">Google Mail Checker</a></h3>
 <p>收 Google Mail 邮件的。</p>
 <h3 id="HTML5高清二维码生成器"><a href="https://chrome.google.com/webstore/detail/html5%E9%AB%98%E6%B8%85%E4%BA%8C%E7%BB%B4%E7%A0%81%E7%94%9F%E6%88%90%E5%99%A8/oadofllcbigaobbjlabbgpddbchjdpki" target="_blank">HTML5高清二维码生成器</a></h3>
-<p>有时候一个网页需要在手机端访问，现在支持二维码功能的 App 那么多，再加上这个插件，这件事情就变得再简单不过了。</p>
+<p>有时候一个网页需要在手机端访问，现在支持二维码功能的 App 那么多，再加上这个扩展，这件事情就变得再简单不过了。</p>
 <h3 id="快捷翻译(中英文)"><a href="https://chrome.google.com/webstore/detail/%E5%BF%AB%E6%8D%B7%E7%BF%BB%E8%AF%91%E4%B8%AD%E8%8B%B1%E6%96%87/nehpphcgppmiinlfceebcgikcpcjnbnl" target="_blank">快捷翻译(中英文)</a></h3>
 <p>双击某个单词，自动翻译，非常方便。</p>
-<h2 id="开发者插件">开发者插件</h2>
-<p>开发者插件是针对我自己平常开发使用的插件。</p>
+<h2 id="开发者扩展">开发者扩展</h2>
+<p>开发者扩展是针对我自己平常开发使用的扩展。</p>
 <h3 id="JSONView"><a href="https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc" target="_blank">JSONView</a></h3>
 <p>当页面输出纯 JSON 数据的时候，会自动帮你处理数据显示的格式，嗯，很方便。</p>
 <h3 id="PHP_Ninja_Manual"><a href="https://chrome.google.com/webstore/detail/php-ninja-manual/clbhjjdhmgeibgdccjfoliooccomjcab" target="_blank">PHP Ninja Manual</a></h3>
@@ -114,12 +114,12 @@
 <h3 id="Postman_-_REST_Client"><a href="https://chrome.google.com/webstore/detail/postman-rest-client/fdmmgilgnpjigdojojpjoooidkmcomcm" target="_blank">Postman - REST Client</a></h3>
 <p>可以模拟 POST 请求，测试的时候很方便。</p>
 <h3 id="smartF5"><a href="https://chrome.google.com/webstore/detail/smartf5/pgglpnfdiigfapjinhfgnbckibpdbbeo" target="_blank">smartF5</a></h3>
-<p>有了这个插件之后你修改过的 HTML、CSS，JavaScript 文件它都有监听到，自动刷新页面。懒人必备，妈妈再也不用担心我的 F5 键了。</p>
+<p>有了这个扩展之后你修改过的 HTML、CSS，JavaScript 文件它都有监听到，自动刷新页面。懒人必备，妈妈再也不用担心我的 F5 键了。</p>
 <p>PS：仅支持 <code>file:///</code> 开头的路径。</p>
 <h3 id="Live_Reload"><a href="https://chrome.google.com/webstore/detail/live-reload/pccddenngcbofbojodpghgpbheckgddn" target="_blank">Live Reload</a></h3>
-<p>腾讯出品。功能跟上面的差不多，但是支持本地搭建的服务器环境访问的页面。但是暂不支持通过 <code>file://</code> 打开的页面，此插件和上面的 smartF5 插件配置使用，非常不错。</p>
+<p>腾讯出品。功能跟上面的差不多，但是支持本地搭建的服务器环境访问的页面。但是暂不支持通过 <code>file://</code> 打开的页面，此扩展和上面的 smartF5 扩展配置使用，非常不错。</p>
 <h2 id="最后">最后</h2>
-<p>整理这些插件，写这篇文章真是花时间。但是是值得的，这篇文章会持续更新。</p>
+<p>整理这些扩展，写这篇文章真是花时间。但是是值得的，这篇文章会持续更新。</p>
 <p>扩展阅读：<br><a href="http://www.zhihu.com/question/23228162" target="_blank">有哪些少为人知却非常有意思、好用的 Chrome 扩展？</a><br><a href="http://www.zhihu.com/question/20564451" target="_blank">Chrome 浏览器的哪些设计符合「Don’t Make Me Think」原则？</a><br><a href="http://jianshu.io/p/8819496c1c86" target="_blank">教你快速玩转 Chrome 浏览器</a></p>
 ]]></content>
     <summary type="html"><![CDATA[<h2 id="遇见_Chrome_浏览器">遇见 Chrome 浏览器</h2>
@@ -130,17 +130,17 @@
 <li>头部很短。</li>
 <li>界面极简。（但功能强大）</li>
 </ol>
-<p>其实用了你才发现这些都是它的优点，再加上它的一个帐号多平台同步功能和插件机制，我再也离不开它了。可以说 Chrome 浏览器把 「Don’t Make Me Think」发挥的淋漓尽致，这一点都不为过。</p>
+<p>其实用了你才发现这些都是它的优点，再加上它的一个帐号多平台同步功能和扩展机制，我再也离不开它了。可以说 Chrome 浏览器把 「Don’t Make Me Think」发挥的淋漓尽致，这一点都不为过。</p>
 <p>国内的什么猎豹浏览器，什么360极速浏览器都是在用 Chromium （Chrome 浏览器背后的引擎）基础上加一个「外壳」而已，但是就是用不习惯，用户体验太差。</p>
-<h2 id="「普遍」的插件">「普遍」的插件</h2>
-<p>这里是指使用率很高的插件。</p>
+<h2 id="「普遍」的扩展">「普遍」的扩展</h2>
+<p>这里是指使用率很高的扩展。</p>
 <h3 id="AdBlock"><a href="https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom" target="_blank">AdBlock</a></h3>
-<p>这个是用来屏蔽广告的，必备插件，妈妈再也不用担心突然进入某个页面突然广告乱飞的情况了。再也不用担心使用百度时看到恶心的 flash 和大图广告了。</p>
-<p>PS：有一个值得注意的情况：如果你是一个开发者，也就是工程师在写代码开发页面的时候，有可能启用这个插件导致一些因屏蔽广告而导致的一些错位什么的问题，留一个心眼就好了。</p>
+<p>这个是用来屏蔽广告的，必备扩展，妈妈再也不用担心突然进入某个页面突然广告乱飞的情况了。再也不用担心使用百度时看到恶心的 flash 和大图广告了。</p>
+<p>PS：有一个值得注意的情况：如果你是一个开发者，也就是工程师在写代码开发页面的时候，有可能启用这个扩展导致一些因屏蔽广告而导致的一些错位什么的问题，留一个心眼就好了。</p>
 <h3 id="Proxy_SwitchySharp"><a href="https://chrome.google.com/webstore/detail/proxy-switchysharp/dpplabbmogkhghncfbfdeeokoefdjegm" target="_blank">Proxy SwitchySharp</a></h3>
-<p>翻墙必备插件，翻墙教程我这儿有一个最简单的方法，屡试不爽。</p>
+<p>翻墙必备扩展，翻墙教程我这儿有一个最简单的方法，屡试不爽。</p>
 <h3 id="豆藤_Bean_vine"><a href="https://chrome.google.com/webstore/detail/%E8%B1%86%E8%97%A4-bean-vine/dnpdkjaahjndfknkobdfakmaiepcoabo" target="_blank">豆藤 Bean vine</a></h3>
-<p>如果你经常使用豆瓣的话，用了这个插件之后你就会停不下了的。</p>
+<p>如果你经常使用豆瓣的话，用了这个扩展之后你就会停不下了的。</p>
 ]]></summary>
     
       <category term="工具控" scheme="http://i.forecho.com/tags/%E5%B7%A5%E5%85%B7%E6%8E%A7/"/>
