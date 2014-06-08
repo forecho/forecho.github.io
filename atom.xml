@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Writing For My Life]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://i.forecho.com/"/>
-  <updated>2014-06-07T03:06:17.711Z</updated>
+  <updated>2014-06-08T02:59:45.611Z</updated>
   <id>http://i.forecho.com/</id>
   
   <author>
@@ -13,6 +13,33 @@
   </author>
   
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[九个任务]]></title>
+    <link href="http://i.forecho.com/2014/06/08/nine-tasks/"/>
+    <id>http://i.forecho.com/2014/06/08/nine-tasks/</id>
+    <published>2014-06-08T02:49:28.000Z</published>
+    <updated>2014-06-08T02:58:51.000Z</updated>
+    <content type="html"><![CDATA[<p>《没有梦想，何必远方》中讲述的30岁之前需要完成的九个任务。分享记录：</p>
+<ol>
+<li>养成阅读的习惯</li>
+<li>按自己喜欢的任何方式尽情打扮</li>
+<li>试试说脏话的感觉</li>
+<li>遇过一个爱到头破血流、恨得歇斯底里的 Mr.Wrong</li>
+<li>找到可以交往一辈子的朋友</li>
+<li>了解自己最大的缺陷并始终去坚持完善它</li>
+<li>建立属于自己的独立安全感系统</li>
+<li>学会游泳、开车和做饭</li>
+<li>有一个明确的梦想，去做它</li>
+</ol>
+]]></content>
+    
+    
+      <category term="读书笔记" scheme="http://i.forecho.com/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="人文栈" scheme="http://i.forecho.com/categories/%E4%BA%BA%E6%96%87%E6%A0%88/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[进阶高级 PHP]]></title>
