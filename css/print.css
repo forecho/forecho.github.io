@@ -1518,3 +1518,17 @@ a:hover {
 .widgets small:after {
   content: ')';
 }
+.container {
+  background: #fff;
+}
+.container .mid-col {
+  position: inherit;
+  background: #fff;
+}
+.left-col,
+.share,
+.print,
+#comment,
+#footer {
+  display: none;
+}

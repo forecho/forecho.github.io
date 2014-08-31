@@ -1,97 +1,181 @@
-
- <!DOCTYPE HTML>
-<html lang="zh-CN">
+<!DOCTYPE HTML>
+<html>
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
   
-    <title>使用 Hexo 搭建一个免费的博客 | forecho</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
-    
-    <meta name="author" content="forecho">
-    
-    <meta name="description" content="我为什么要使用 Hexo 搭建一个博客？
-之前一直在使用 WordPress 和 VPS 搭建了一个博客，并且还抽时间自己写了一个 WordPress 主题，作为自用。博客一直用到现在，用了3年多了，虽然写的不多，质量也不算高。但是已经养成写博客的习惯了。我相信这个习惯会让我受用一生。
-但是 VPS 不稳定（便宜货，不靠谱，被坑过），所以我有装备份 WordPress 的插件，慢慢觉得也很麻烦。后来接触了 Markdown，作为一个标记语言，很好用，简洁。发现自己平常写文章的时候用的格式也不多，写文章的时候不能忍受为了给某个文字加粗，而去动用鼠标去点编辑器加粗的图标，这样显得很不优雅，也没有效率。而作为标记语言的 Markdown 缺很轻松的实现文本格式。
-WordPress 文章存放在数据库中，感觉很不方便。对博客而言，使用文档存放文章，方便随时本地查阅是再好不过了。对，就是可以离线本地查阅，非常的好。就速度方面，使用数据库的 WordPress 显然没有直接读取静态文件的快。
-综上所述，我决定去尝试其他可代替 WordPress 同时又能解决我上述顾虑的产品。
-然后经好基友介绍我遇到了Pico，这个项目是一个 PHP 项目，这就意味着环境部署方面非常的方便。并且此项目最大的特点是直接读取 Markdown 文档，访问页面的时候把 Markdown 生成 HTML 格式的，此项目我折腾了两天，包括搭建看文档，自己移植一个主题过来，眼看一个文章详细页面就用移植完成的时候，发现我写的一个代码块直接给我在最外层加了一个 code 标签而已了，结果就是这个函数变成了一行，身为处女座，这事绝对不能让它发生，于是我放弃了此项目，连解决办法都没去找。
-然后我就遇到了 Hexo，很早之前有听过这个项目，但是没搭建过。只是在 GitHub 搭建过一次 Jekyll，然后就没有然后了。Hexo 也满足我之前的要求，并且还可以结合 GitHub Pages 作为免费空间使用。刚好看到这个教程教你如何搭建 Hexo - 如何搭建一个独立博客——简明Github Pages与Hexo教程，于是，OK 就是它了。">
-    
-    
-    
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="caizhenghai" />
-    <meta name="twitter:title" content="使用 Hexo 搭建一个免费的博客 | forecho" />
-      
-    
-    
-    <link rel="alternative" href="/atom.xml" title="forecho" type="application/atom+xml">
-    
-    
-    <link rel="icon" href="/img/favicon.ico">
-    
-    
-    <link rel="stylesheet" href="/css/style.css" type="text/css">
+  <title>使用 Hexo 搭建一个免费的博客 | forecho</title>
+  <meta name="author" content="forecho">
+  
+  <meta name="description" content="学习总结 思考感悟 知识管理">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="使用 Hexo 搭建一个免费的博客"/>
+  <meta property="og:site_name" content="forecho"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  <link href="/favicon.png" rel="icon">
+
+  <link rel="alternate" href="/atom.xml" title="forecho" type="application/atom+xml">
+
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/print.css" media="print" type="text/css">
+
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+
+  <script src="/js/scripts.js"></script>
+
+  
+  
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config(
+    {
+      tex2jax: {inlineMath: [['$','$'], ['\(','\)']]},
+      TeX: {equationNumbers: {autoNumber: ["AMS"], useLabelIds: true}},
+    }
+  );
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+  
 </head>
 
-  <body>
-    <header>
-      <div>
-			<div id="textlogo">
-				<h1 class="site-name"><a href="/" title="forecho">forecho</a></h1>
-				<h2 class="blog-motto"><a href="/">Writing For My Life</h2>
-			</div>
-			<div class="navbar"><a class="navbutton navmobile" href="#" title="菜单">
-			</a></div>
-			<nav class="animated">
-				<ul>
-					<ul>
-					 
-						<li><a href="/">首页</a></li>
-					
-						<li><a href="/categories/技术栈">技术栈</a></li>
-					
-						<li><a href="/categories/人文栈">人文栈</a></li>
-					
-						<li><a href="/archives">归档</a></li>
-					
-						<li><a href="/about">关于</a></li>
-					
-					<li><form class="search" action="//google.com/search" method="get" accept-charset="utf-8">
-						<label>Search</label>
-						<input type="search" id="search" autocomplete="off" maxlength="20" placeholder="Search" />
-						<input type="hidden" name="q" value="site:i.forecho.com">
-					</form></li>
-				</ul>
-			</nav>
-</div>
-    </header>
-    <div id="wrap">
-    <div id="container">
-      <div id="main" class="post" itemscope itemprop="blogPost">
-	<article itemprop="articleBody"> 
-		<header class="article-info clearfix">
-    <time datetime="2014-05-21T12:46:48.000Z" itemprop="datePublished">
-      <a href="/2014/05/21/use-hexo/" title="使用 Hexo 搭建一个免费的博客" itemprop="url" class="article-time">5月 21 2014</a>
-    </time>
 
-  <h1 itemprop="name" class="article-name">
+<body>
+    <div class="container">
+      <div class="left-col">
+        <div class="intrude-less">
+          <header id="header" class="inner">
+            <div class="profilepic">
+  <script src="/js/md5.js"></script>
+  <script type="text/javascript">
+    $(function(){
+	$('.profilepic').append(
+          "<img src='http://www.gravatar.com/avatar/"
+          + MD5("caizhenghai@gmail.com")
+          + "?s=160' alt='Profile Picture' style='width: 160px;' />");
+    });
+  </script>
+</div><!-- profilepic -->
+<h1><a href="/">forecho</a></h1>
+<nav id="main-nav">
+  <ul class="main">
     
-      <a href="/2014/05/21/use-hexo/" title="使用 Hexo 搭建一个免费的博客" itemprop="url"><span>使用 Hexo 搭建一个免费的博客</span></a>
-  </h1>
-</header>
+      <li>
+      <a href="/about">About</a>
+      </li>
+    
+  </ul>
+  
+  <section class="aboutme">
+    <p>
+      学习总结 思考感悟 知识管理
+    </p>
+  </section>
+  
+</nav><!-- main-nav -->
+<nav id="sub-nav">
+  <div class="social">
+    
+      <a class="google" href="http://plus.google.com/"
+         title="Google+">Google+</a>
+    
+    
+      <a class="twitter" href="http://twitter.com/"
+         title="Twitter">Twitter</a>
+    
+    
+      <a class="github" href="http://github.com/"
+         title="Github">Github</a>
+    
+    
+        <a class="rss" href="/atom.xml" title="RSS">RSS</a>
+    
+    
+      <a class="linkedin" href="http://www.linkedin.com/in/"
+        title="Linkedin">Linkedin</a>
+      
+    
+      <a class="facebook" href="http://facebook.com/"
+        title="Facebook">Facebook</a>
+    
+    
+      <a class="coderwall" href="http://github.com/"
+        title="Coderwall">Coderwall</a>
+    
+    
+      <a class="pinterest" href="http://pinterest.com/"
+        title="Pinterest">Pinterest</a>
+    
+  </div>
+</nav><!-- sub-nav -->
+<nav id="widget-nav">
+  <div class="widgets">
+    
+      
+<div class="widget tag">
+  <h3 class="title">标签</h3>
+  <ul class="entry">
+  
+    <li><a href="/tags/PHP开发/">PHP开发</a><small>1</small></li>
+  
+    <li><a href="/tags/blog/">blog</a><small>1</small></li>
+  
+    <li><a href="/tags/node.js/">node.js</a><small>1</small></li>
+  
+    <li><a href="/tags/工具控/">工具控</a><small>1</small></li>
+  
+    <li><a href="/tags/干货/">干货</a><small>1</small></li>
+  
+    <li><a href="/tags/读书笔记/">读书笔记</a><small>2</small></li>
+  
+  </ul>
+</div>
 
-	<div class="article-content">
-		
-		
-		<div id="toc" class="toc-article">
-			<strong class="toc-title">文章目录</strong>
-		
-			<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#我为什么要使用_Hexo_搭建一个博客？"><span class="toc-number">1.</span> <span class="toc-text">我为什么要使用 Hexo 搭建一个博客？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#如何搭建？"><span class="toc-number">2.</span> <span class="toc-text">如何搭建？</span></a></li><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#安装_Hexo"><span class="toc-number">2.1.</span> <span class="toc-text">安装 Hexo</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#部署Hexo"><span class="toc-number">2.2.</span> <span class="toc-text">部署Hexo</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#运行_Hexo"><span class="toc-number">2.3.</span> <span class="toc-text">运行 Hexo</span></a></li></ol><li class="toc-item toc-level-2"><a class="toc-link" href="#说说我遇到的坑（Hexo_结合_GitHub_Pages_的使用）"><span class="toc-number">3.</span> <span class="toc-text">说说我遇到的坑（Hexo 结合 GitHub Pages 的使用）</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#填坑，Hexo_搭建成功"><span class="toc-number">4.</span> <span class="toc-text">填坑，Hexo 搭建成功</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#大感谢"><span class="toc-number">5.</span> <span class="toc-text">大感谢</span></a></li></ol>
-		
-		</div>
-		
-		<h2 id="我为什么要使用_Hexo_搭建一个博客？">我为什么要使用 Hexo 搭建一个博客？</h2>
+
+    
+  </div>
+</nav><!-- widget-nav -->
+
+          <header>
+        </div><!-- intrude-less -->
+      </div><!-- left-col -->
+      <div class="mid-col">
+        <div class="mid-col-container">
+	    <div id="content" class="inner"><article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  
+	<div class="meta">
+          
+<div class="date">
+
+<time datetime="2014-05-21T12:46:48.000Z"
+      
+      data-updated="true"
+       itemprop="datePublished">
+  5月 21 2014
+</time>
+
+
+
+
+
+</div>
+
+          
+          
+<div class="print">打印后</div>
+
+          
+	</div>
+        <h1 class="title" itemprop="name">使用 Hexo 搭建一个免费的博客</h1>
+      	<div class="entry-content" itemprop="articleBody"><h2 id="我为什么要使用_Hexo_搭建一个博客？">我为什么要使用 Hexo 搭建一个博客？</h2>
 <p>之前一直在使用 WordPress 和 VPS 搭建了一个博客，并且还抽时间自己写了一个 WordPress 主题，作为自用。博客一直用到现在，用了3年多了，虽然写的不多，质量也不算高。但是已经养成写博客的习惯了。我相信这个习惯会让我受用一生。</p>
 <p>但是 VPS 不稳定（便宜货，不靠谱，被坑过），所以我有装备份 WordPress 的插件，慢慢觉得也很麻烦。后来接触了 Markdown，作为一个标记语言，很好用，简洁。发现自己平常写文章的时候用的格式也不多，写文章的时候不能忍受为了给某个文字加粗，而去动用鼠标去点编辑器加粗的图标，这样显得很不优雅，也没有效率。而作为标记语言的 Markdown 缺很轻松的实现文本格式。</p>
 <p>WordPress 文章存放在数据库中，感觉很不方便。对博客而言，使用文档存放文章，方便随时本地查阅是再好不过了。对，就是可以离线本地查阅，非常的好。就速度方面，使用数据库的 WordPress 显然没有直接读取静态文件的快。</p>
@@ -149,315 +233,84 @@ WordPress 文章存放在数据库中，感觉很不方便。对博客而言，�
 <li><p><a href="http://blog.segmentfault.com/zhongbaitu/1190000000458953" target="_blank">使用Github搭建静态博客（Hexo）</a></p>
 </li>
 </ul>
+</div>
+
+
+</article>
+
+  <div class="share">
+  <div class="addthis_toolbox addthis_default_style ">
   
-	</div>
-		<footer class="article-footer clearfix">
-
-<div class="article-categories">
-  <span></span>
-  <a class="article-category-link" href="/categories/技术栈/">技术栈</a>
-</div>
-
-
-  <div class="article-tags">
   
-  <span></span> <a href="/tags/node.js/">node.js</a>
+  <a class="addthis_button_tweet"></a>
+  
+  
+  <a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+  
+  
   </div>
-
-
-
-
-<div class="article-share" id="share">
-
-  <div data-url="http://i.forecho.com/2014/05/21/use-hexo/" data-title="使用 Hexo 搭建一个免费的博客 | forecho" data-tsina="undefined" class="share clearfix">
-  </div>
-
-</div>
-</footer>   	       
-	</article>
-	
-<nav class="article-nav clearfix">
- 
- <div class="prev" >
- <a href="/2014/05/26/about-this-blog/" title="关于本博客的使用">
-  <strong>上一篇：</strong><br/>
-  <span>
-  关于本博客的使用</span>
-</a>
+  <script type="text/javascript">
+    var addthis_config = {"data_track_addressbar":true};
+  </script>
+  <script type="text/javascript"
+          src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=null">
+  </script>
 </div>
 
 
-<div class="next">
-<a href="/2014/05/18/hello-world/"  title="Hello World">
- <strong>下一篇：</strong><br/> 
- <span>Hello World
-</span>
-</a>
+
+<section id="comment">
+    <h1 class="title">Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the
+  <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>
+
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 </div>
-
-</nav>
-
-	
-<section class="comment">
-	<div class="ds-thread"></div>
 </section>
 
-</div>  
-      <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
 
-<div id="asidepart">
-<div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div>
-<aside class="clearfix">
-
-  
-<div class="categorieslist">
-	<p class="asidetitle">分类</p>
-		<ul>
-		
-			<li><a href="/categories/人文栈/" title="人文栈">人文栈<sup>3</sup></a></li>
-		
-			<li><a href="/categories/技术栈/" title="技术栈">技术栈<sup>3</sup></a></li>
-		
-		</ul>
 </div>
-
-
-  
-<div class="tagslist">
-	<p class="asidetitle">标签</p>
-		<ul class="clearfix">
-		
-			<li><a href="/tags/PHP开发/" title="PHP开发">PHP开发<sup>1</sup></a></li>
-		
-			<li><a href="/tags/blog/" title="blog">blog<sup>1</sup></a></li>
-		
-			<li><a href="/tags/node.js/" title="node.js">node.js<sup>1</sup></a></li>
-		
-			<li><a href="/tags/工具控/" title="工具控">工具控<sup>1</sup></a></li>
-		
-			<li><a href="/tags/干货/" title="干货">干货<sup>1</sup></a></li>
-		
-			<li><a href="/tags/读书笔记/" title="读书笔记">读书笔记<sup>2</sup></a></li>
-		
-		</ul>
-</div>
-
-
-  <div class="linkslist">
-  <p class="asidetitle">友情链接</p>
-    <ul>
-      <li><a href="http://iamtutu.com" target="_blank" title="ragingcat">兔兔</a></li>
-      <li><a href="http://yangjian.me" target="_blank" title="YangJian">Alimon's Blog</a></li>
-      <li><a href="http://ragingcat.info" target="_blank" title="ragingcat">RagingCat's Blog</a></li>
-    </ul>
-</div>
-
-  <div class="rsspart">
-	<a href="/atom.xml" target="_blank" title="rss">RSS 订阅</a>
-</div>
-
-</aside>
-</div>
-    </div>
-</div>
-    <footer><div id="footer" >
-	
-    <div class="social-font" class="clearfix">
+	</div>
+        <footer id="footer" class="inner">
+          Copyright © 2013 - forecho - Powered by <a href="https://github.com/tommy351/hexo">Hexo</a><br>
+- Ported theme <a href="https://github.com/nuklly/hexo-theme-greyshade">GreyShade</a> -
+        </footer>
         
-        <a href="http://weibo.com/18loving" target="_blank" class="icon-weibo" title="weibo"></a>
-        
-        
-        <a href="https://github.com/forecho" target="_blank" class="icon-github" title="github"></a>
-        
-        
-        
-        <a href="https://twitter.com/caizhenghai" target="_blank" class="icon-twitter" title="twitter"></a>
-        
-        
-        
-        
-        <a href="mailto:caizhenghai@gmail.com" target="_blank" class="icon-email" title="Email Me"></a>
-        
-    </div>
-	<section class="info">
-		<p class="l1">
-            This is Alvin Fan&#39;s personal blog.
-        </p>
-            <!-- <br/> -->
-        <p class="l2">
-			我不是为了输赢，我就是认真！
-        </p>
-	</section>
-	 
-		<p class="copyright">Powered by <a href="http://zespia.tw/hexo/" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/RagingCat/hexo-theme-ragingcat" target="_blank" title="hexo-theme-ragingcat">Raging Cat</a> © 2014
-		
-		<a href="http://i.forecho.com/about" target="_blank" title="forecho">forecho</a>
-		
-		</p>
-</div>
-</footer>
-    <script src="/js/jquery-2.0.3.min.js"></script>
-<script type="text/javascript">
-$(document).ready(function(){
-  $('.navbar').click(function(){
-    $('header nav').toggleClass('shownav');
-  });
-  var myWidth = 0;
-  function getSize(){
-    if( typeof( window.innerWidth ) == 'number' ) {
-      myWidth = window.innerWidth;
-    } else if( document.documentElement && document.documentElement.clientWidth) {
-      myWidth = document.documentElement.clientWidth;
-    };
-  };
-  var m = $('#main'),
-      a = $('#asidepart'),
-      c = $('.closeaside'),
-      o = $('.openaside');
-  $(window).resize(function(){
-    getSize();
-    if (myWidth >= 1024) {
-      $('header nav').removeClass('shownav');
-    }else
-    {
-      m.removeClass('moveMain');
-      a.css('display', 'block').removeClass('fadeOut');
-      o.css('display', 'none');
-      
-    }
-  });
-  c.click(function(){
-    a.addClass('fadeOut').css('display', 'none');
-    o.css('display', 'block').addClass('fadeIn');
-    m.addClass('moveMain');
-  });
-  o.click(function(){
-    o.css('display', 'none').removeClass('beforeFadeIn');
-    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');
-    m.removeClass('moveMain');
-  });
-  $(window).scroll(function(){
-    o.css("top",Math.max(80,260-$(this).scrollTop()));
-  });
-});
-</script>
-
-<script type="text/javascript">
-$(document).ready(function(){
-  var ai = $('.article-content>iframe'),
-      ae = $('.article-content>embed'),
-      t  = $('#toc'),
-      h  = $('article h2')
-      ah = $('article h2'),
-      ta = $('#toc.toc-aside'),
-      o  = $('.openaside'),
-      c  = $('.closeaside');
-  if(ai.length>0){
-    ai.wrap('<div class="video-container" />');
-  };
-  if(ae.length>0){
-   ae.wrap('<div class="video-container" />');
-  };
-  if(ah.length==0){
-    t.css('display','none');
-  }else{
-    c.click(function(){
-      ta.css('display', 'block').addClass('fadeIn');
-    });
-    o.click(function(){
-      ta.css('display', 'none');
-    });
-    $(window).scroll(function(){
-      ta.css("top",Math.max(140,320-$(this).scrollTop()));
-    });
-  };
-});
-</script>
+<script src="/js/slash.js"></script>
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
 
 
 <script type="text/javascript">
-$(document).ready(function(){
-  var $this = $('.share'),
-      url = $this.attr('data-url'),
-      encodedUrl = encodeURIComponent(url),
-      title = $this.attr('data-title'),
-      tsina = $this.attr('data-tsina');
-  var html = [
-  '<a href="#" class="overlay" id="qrcode"></a>',
-  '<div class="qrcode clearfix"><span>扫描二维码分享到微信朋友圈</span><a class="qrclose" href="#share"></a><strong>Loading...Please wait</strong><img id="qrcode-pic" data-src="http://s.jiathis.com/qrcode.php?url=' + encodedUrl + '"/></div>',
-  '<a href="#textlogo" class="article-back-to-top" title="Top"></a>',
-  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
-  '<a href="#qrcode" class="article-share-qrcode" title="QRcode"></a>',
-  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
-  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="Weibo"></a>',
-  '<span title="Share to"></span>'
-  ].join('');
-  $this.append(html);
-  $('.article-share-qrcode').click(function(){
-    var imgSrc = $('#qrcode-pic').attr('data-src');
-    $('#qrcode-pic').attr('src', imgSrc);
-    $('#qrcode-pic').load(function(){
-        $('.qrcode strong').text(' ');
-    });
-  });
-});
-</script>
+  var disqus_shortname = 'github-forecho';
+
+  (function(){
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  }());
+  </script>
 
 
-<script type="text/javascript">
-  var duoshuoQuery = {short_name:"iforecho"};
-  (function() {
-    var ds = document.createElement('script');
-    ds.type = 'text/javascript';ds.async = true;
-    ds.src = '//static.duoshuo.com/embed.js';
-    ds.charset = 'UTF-8';
-    (document.getElementsByTagName('head')[0]
-    || document.getElementsByTagName('body')[0]).appendChild(ds);
-  })();
-</script>
+
 
 
 
 <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
 <script src="/fancybox/jquery.fancybox.pack.js"></script>
 <script type="text/javascript">
-$(document).ready(function(){
-  $('.article-content').each(function(i){
-    $(this).find('img').each(function(){
-      if ($(this).parent().hasClass('fancybox')) return;
-      var alt = this.alt;
-      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
-      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
-    });
-    $(this).find('.fancybox').each(function(){
-      $(this).attr('rel', 'article' + i);
-    });
-  });
-  if($.fancybox){
-    $('.fancybox').fancybox();
-  }
-});
-</script>
-
-
-<script type="text/javascript">
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-ga('create', 'null', 'i.forecho.com');  
-ga('send', 'pageview');
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
 </script>
 
 
 
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
-});
-</script>
-<script type="text/javascript"
-   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
-  </body>
+
+      </div><!-- mid-col -->
+    </div><!-- container -->
+</body>
 </html>

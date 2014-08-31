@@ -1,109 +1,181 @@
-
- <!DOCTYPE HTML>
-<html lang="zh-CN">
+<!DOCTYPE HTML>
+<html>
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
   
-    <title>我的 Chrome 扩展集 | forecho</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
-    
-    <meta name="author" content="forecho">
-    
-    <meta name="description" content="遇见 Chrome 浏览器
-在大一的时候才开始拥有一台属于自己的电脑，那个时候买的还是二手台式机。之前的我可以说算是电脑小白了，根本就没有浏览器这个概念，就跟现在绝大多数的中国网民一样。只知道有个图标你点一下就能上网，后来才知道它就是 IE 浏览器。
-也不知道什么时候开始什么原因，让我知道了 Chrome 浏览器，初次使用的时候，非常的不习惯。不习惯以下几点：
+  <title>我的 Chrome 扩展集 | forecho</title>
+  <meta name="author" content="forecho">
+  
+  <meta name="description" content="学习总结 思考感悟 知识管理">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-以标签形式展现一个网页。
-头部很短。
-界面极简。（但功能强大）
+  <meta property="og:title" content="我的 Chrome 扩展集"/>
+  <meta property="og:site_name" content="forecho"/>
 
-其实用了你才发现这些都是它的优点，再加上它的一个帐号多平台同步功能和扩展机制，我再也离不开它了。可以说 Chrome 浏览器把 「Don’t Make Me Think」发挥的淋漓尽致，这一点都不为过。
-国内的什么猎豹浏览器，什么360极速浏览器都是在用 Chromium （Chrome 浏览器背后的引擎）基础上加一个「外壳」而已，但是就是用不习惯，用户体验太差。
-「普遍」的扩展
-这里是指使用率很高的扩展。
-AdBlock
-这个是用来屏蔽广告的，必备扩展，妈妈再也不用担心突然进入某个页面突然广告乱飞的情况了。再也不用担心使用百度时看到恶心的 flash 和大图广告了。
-PS：有一个值得注意的情况：如果你是一个开发者，也就是工程师在写代码开发页面的时候，有可能启用这个扩展导致一些因屏蔽广告而导致的一些错位什么的问题，留一个心眼就好了。
-Proxy SwitchySharp
-翻墙必备扩展，翻墙教程我这儿有一个最简单的方法，屡试不爽。
-豆藤 Bean vine
-如果你经常使用豆瓣的话，用了这个扩展之后你就会停不下了的。">
-    
-    
-    
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="caizhenghai" />
-    <meta name="twitter:title" content="我的 Chrome 扩展集 | forecho" />
-      
-    
-    
-    <link rel="alternative" href="/atom.xml" title="forecho" type="application/atom+xml">
-    
-    
-    <link rel="icon" href="/img/favicon.ico">
-    
-    
-    <link rel="stylesheet" href="/css/style.css" type="text/css">
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  <link href="/favicon.png" rel="icon">
+
+  <link rel="alternate" href="/atom.xml" title="forecho" type="application/atom+xml">
+
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/print.css" media="print" type="text/css">
+
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+
+  <script src="/js/scripts.js"></script>
+
+  
+  
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config(
+    {
+      tex2jax: {inlineMath: [['$','$'], ['\(','\)']]},
+      TeX: {equationNumbers: {autoNumber: ["AMS"], useLabelIds: true}},
+    }
+  );
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+  
 </head>
 
-  <body>
-    <header>
-      <div>
-			<div id="textlogo">
-				<h1 class="site-name"><a href="/" title="forecho">forecho</a></h1>
-				<h2 class="blog-motto"><a href="/">Writing For My Life</h2>
-			</div>
-			<div class="navbar"><a class="navbutton navmobile" href="#" title="菜单">
-			</a></div>
-			<nav class="animated">
-				<ul>
-					<ul>
-					 
-						<li><a href="/">首页</a></li>
-					
-						<li><a href="/categories/技术栈">技术栈</a></li>
-					
-						<li><a href="/categories/人文栈">人文栈</a></li>
-					
-						<li><a href="/archives">归档</a></li>
-					
-						<li><a href="/about">关于</a></li>
-					
-					<li><form class="search" action="//google.com/search" method="get" accept-charset="utf-8">
-						<label>Search</label>
-						<input type="search" id="search" autocomplete="off" maxlength="20" placeholder="Search" />
-						<input type="hidden" name="q" value="site:i.forecho.com">
-					</form></li>
-				</ul>
-			</nav>
-</div>
-    </header>
-    <div id="wrap">
-    <div id="container">
-      <div id="main" class="post" itemscope itemprop="blogPost">
-	<article itemprop="articleBody"> 
-		<header class="article-info clearfix">
-    <time datetime="2014-06-04T13:17:44.000Z" itemprop="datePublished">
-      <a href="/2014/06/04/about-my-chrome-extension/" title="我的 Chrome 扩展集" itemprop="url" class="article-time">6月 4 2014</a>
-    </time>
 
-  <h1 itemprop="name" class="article-name">
+<body>
+    <div class="container">
+      <div class="left-col">
+        <div class="intrude-less">
+          <header id="header" class="inner">
+            <div class="profilepic">
+  <script src="/js/md5.js"></script>
+  <script type="text/javascript">
+    $(function(){
+	$('.profilepic').append(
+          "<img src='http://www.gravatar.com/avatar/"
+          + MD5("caizhenghai@gmail.com")
+          + "?s=160' alt='Profile Picture' style='width: 160px;' />");
+    });
+  </script>
+</div><!-- profilepic -->
+<h1><a href="/">forecho</a></h1>
+<nav id="main-nav">
+  <ul class="main">
     
-      <a href="/2014/06/04/about-my-chrome-extension/" title="我的 Chrome 扩展集" itemprop="url"><span>我的 Chrome 扩展集</span></a>
-  </h1>
-</header>
+      <li>
+      <a href="/about">About</a>
+      </li>
+    
+  </ul>
+  
+  <section class="aboutme">
+    <p>
+      学习总结 思考感悟 知识管理
+    </p>
+  </section>
+  
+</nav><!-- main-nav -->
+<nav id="sub-nav">
+  <div class="social">
+    
+      <a class="google" href="http://plus.google.com/"
+         title="Google+">Google+</a>
+    
+    
+      <a class="twitter" href="http://twitter.com/"
+         title="Twitter">Twitter</a>
+    
+    
+      <a class="github" href="http://github.com/"
+         title="Github">Github</a>
+    
+    
+        <a class="rss" href="/atom.xml" title="RSS">RSS</a>
+    
+    
+      <a class="linkedin" href="http://www.linkedin.com/in/"
+        title="Linkedin">Linkedin</a>
+      
+    
+      <a class="facebook" href="http://facebook.com/"
+        title="Facebook">Facebook</a>
+    
+    
+      <a class="coderwall" href="http://github.com/"
+        title="Coderwall">Coderwall</a>
+    
+    
+      <a class="pinterest" href="http://pinterest.com/"
+        title="Pinterest">Pinterest</a>
+    
+  </div>
+</nav><!-- sub-nav -->
+<nav id="widget-nav">
+  <div class="widgets">
+    
+      
+<div class="widget tag">
+  <h3 class="title">标签</h3>
+  <ul class="entry">
+  
+    <li><a href="/tags/PHP开发/">PHP开发</a><small>1</small></li>
+  
+    <li><a href="/tags/blog/">blog</a><small>1</small></li>
+  
+    <li><a href="/tags/node.js/">node.js</a><small>1</small></li>
+  
+    <li><a href="/tags/工具控/">工具控</a><small>1</small></li>
+  
+    <li><a href="/tags/干货/">干货</a><small>1</small></li>
+  
+    <li><a href="/tags/读书笔记/">读书笔记</a><small>2</small></li>
+  
+  </ul>
+</div>
 
-	<div class="article-content">
-		
-		
-		<div id="toc" class="toc-article">
-			<strong class="toc-title">文章目录</strong>
-		
-			<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#遇见_Chrome_浏览器"><span class="toc-number">1.</span> <span class="toc-text">遇见 Chrome 浏览器</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#「普遍」的扩展"><span class="toc-number">2.</span> <span class="toc-text">「普遍」的扩展</span></a></li><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#AdBlock"><span class="toc-number">2.1.</span> <span class="toc-text">AdBlock</a></span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Proxy_SwitchySharp"><span class="toc-number">2.2.</span> <span class="toc-text">Proxy SwitchySharp</a></span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#豆藤_Bean_vine"><span class="toc-number">2.3.</span> <span class="toc-text">豆藤 Bean vine</a></span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#购物党"><span class="toc-number">2.4.</span> <span class="toc-text">购物党</a></span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#印象笔记·剪藏"><span class="toc-number">2.5.</span> <span class="toc-text">印象笔记·剪藏</a></span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#印象笔记·悦读"><span class="toc-number">2.6.</span> <span class="toc-text">印象笔记·悦读</a></span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Readability"><span class="toc-number">2.7.</span> <span class="toc-text">Readability</a></span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Save_to_Pocket"><span class="toc-number">2.8.</span> <span class="toc-text">Save to Pocket</a></span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#TabCloud"><span class="toc-number">2.9.</span> <span class="toc-text">TabCloud</a></span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#优酷去广告_扩展"><span class="toc-number">2.10.</span> <span class="toc-text">优酷去广告 扩展</a></span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#百度搜索"><span class="toc-number">2.11.</span> <span class="toc-text">百度搜索</a></span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#爱库网快速收藏工具"><span class="toc-number">2.12.</span> <span class="toc-text">爱库网快速收藏工具</a></span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Google_Mail_Checker"><span class="toc-number">2.13.</span> <span class="toc-text">Google Mail Checker</a></span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#HTML5高清二维码生成器"><span class="toc-number">2.14.</span> <span class="toc-text">HTML5高清二维码生成器</a></span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#快捷翻译(中英文)"><span class="toc-number">2.15.</span> <span class="toc-text">快捷翻译(中英文)</a></span></a></li></ol><li class="toc-item toc-level-2"><a class="toc-link" href="#开发者扩展"><span class="toc-number">3.</span> <span class="toc-text">开发者扩展</span></a></li><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#JSONView"><span class="toc-number">3.1.</span> <span class="toc-text">JSONView</a></span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#PHP_Ninja_Manual"><span class="toc-number">3.2.</span> <span class="toc-text">PHP Ninja Manual</a></span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Postman_-_REST_Client"><span class="toc-number">3.3.</span> <span class="toc-text">Postman - REST Client</a></span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#smartF5"><span class="toc-number">3.4.</span> <span class="toc-text">smartF5</a></span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Live_Reload"><span class="toc-number">3.5.</span> <span class="toc-text">Live Reload</a></span></a></li></ol><li class="toc-item toc-level-2"><a class="toc-link" href="#最后"><span class="toc-number">4.</span> <span class="toc-text">最后</span></a></li></ol>
-		
-		</div>
-		
-		<h2 id="遇见_Chrome_浏览器">遇见 Chrome 浏览器</h2>
+
+    
+  </div>
+</nav><!-- widget-nav -->
+
+          <header>
+        </div><!-- intrude-less -->
+      </div><!-- left-col -->
+      <div class="mid-col">
+        <div class="mid-col-container">
+	    <div id="content" class="inner"><article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  
+	<div class="meta">
+          
+<div class="date">
+
+<time datetime="2014-06-04T13:17:44.000Z"
+      
+      data-updated="true"
+       itemprop="datePublished">
+  6月 4 2014
+</time>
+
+
+
+
+
+</div>
+
+          
+          
+<div class="print">打印后</div>
+
+          
+	</div>
+        <h1 class="title" itemprop="name">我的 Chrome 扩展集</h1>
+      	<div class="entry-content" itemprop="articleBody"><h2 id="遇见_Chrome_浏览器">遇见 Chrome 浏览器</h2>
 <p>在大一的时候才开始拥有一台属于自己的电脑，那个时候买的还是二手台式机。之前的我可以说算是电脑小白了，根本就没有浏览器这个概念，就跟现在绝大多数的中国网民一样。只知道有个图标你点一下就能上网，后来才知道它就是 IE 浏览器。</p>
 <p>也不知道什么时候开始什么原因，让我知道了 Chrome 浏览器，初次使用的时候，非常的不习惯。不习惯以下几点：</p>
 <ol>
@@ -167,315 +239,84 @@ Proxy SwitchySharp
 <h2 id="最后">最后</h2>
 <p>整理这些扩展，写这篇文章真是花时间。但是是值得的，这篇文章会持续更新。</p>
 <p>扩展阅读：<br><a href="http://www.zhihu.com/question/23228162" target="_blank">有哪些少为人知却非常有意思、好用的 Chrome 扩展？</a><br><a href="http://www.zhihu.com/question/20564451" target="_blank">Chrome 浏览器的哪些设计符合「Don’t Make Me Think」原则？</a><br><a href="http://jianshu.io/p/8819496c1c86" target="_blank">教你快速玩转 Chrome 浏览器</a></p>
+</div>
+
+
+</article>
+
+  <div class="share">
+  <div class="addthis_toolbox addthis_default_style ">
   
-	</div>
-		<footer class="article-footer clearfix">
-
-<div class="article-categories">
-  <span></span>
-  <a class="article-category-link" href="/categories/技术栈/">技术栈</a>
-</div>
-
-
-  <div class="article-tags">
   
-  <span></span> <a href="/tags/工具控/">工具控</a>
+  <a class="addthis_button_tweet"></a>
+  
+  
+  <a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+  
+  
   </div>
-
-
-
-
-<div class="article-share" id="share">
-
-  <div data-url="http://i.forecho.com/2014/06/04/about-my-chrome-extension/" data-title="我的 Chrome 扩展集 | forecho" data-tsina="undefined" class="share clearfix">
-  </div>
-
-</div>
-</footer>   	       
-	</article>
-	
-<nav class="article-nav clearfix">
- 
- <div class="prev" >
- <a href="/2014/06/06/advanced-senior-php/" title="进阶高级 PHP">
-  <strong>上一篇：</strong><br/>
-  <span>
-  进阶高级 PHP</span>
-</a>
+  <script type="text/javascript">
+    var addthis_config = {"data_track_addressbar":true};
+  </script>
+  <script type="text/javascript"
+          src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=null">
+  </script>
 </div>
 
 
-<div class="next">
-<a href="/2014/05/26/about-this-blog/"  title="关于本博客的使用">
- <strong>下一篇：</strong><br/> 
- <span>关于本博客的使用
-</span>
-</a>
+
+<section id="comment">
+    <h1 class="title">Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the
+  <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>
+
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 </div>
-
-</nav>
-
-	
-<section class="comment">
-	<div class="ds-thread"></div>
 </section>
 
-</div>  
-      <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
 
-<div id="asidepart">
-<div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div>
-<aside class="clearfix">
-
-  
-<div class="categorieslist">
-	<p class="asidetitle">分类</p>
-		<ul>
-		
-			<li><a href="/categories/人文栈/" title="人文栈">人文栈<sup>3</sup></a></li>
-		
-			<li><a href="/categories/技术栈/" title="技术栈">技术栈<sup>3</sup></a></li>
-		
-		</ul>
 </div>
-
-
-  
-<div class="tagslist">
-	<p class="asidetitle">标签</p>
-		<ul class="clearfix">
-		
-			<li><a href="/tags/PHP开发/" title="PHP开发">PHP开发<sup>1</sup></a></li>
-		
-			<li><a href="/tags/blog/" title="blog">blog<sup>1</sup></a></li>
-		
-			<li><a href="/tags/node.js/" title="node.js">node.js<sup>1</sup></a></li>
-		
-			<li><a href="/tags/工具控/" title="工具控">工具控<sup>1</sup></a></li>
-		
-			<li><a href="/tags/干货/" title="干货">干货<sup>1</sup></a></li>
-		
-			<li><a href="/tags/读书笔记/" title="读书笔记">读书笔记<sup>2</sup></a></li>
-		
-		</ul>
-</div>
-
-
-  <div class="linkslist">
-  <p class="asidetitle">友情链接</p>
-    <ul>
-      <li><a href="http://iamtutu.com" target="_blank" title="ragingcat">兔兔</a></li>
-      <li><a href="http://yangjian.me" target="_blank" title="YangJian">Alimon's Blog</a></li>
-      <li><a href="http://ragingcat.info" target="_blank" title="ragingcat">RagingCat's Blog</a></li>
-    </ul>
-</div>
-
-  <div class="rsspart">
-	<a href="/atom.xml" target="_blank" title="rss">RSS 订阅</a>
-</div>
-
-</aside>
-</div>
-    </div>
-</div>
-    <footer><div id="footer" >
-	
-    <div class="social-font" class="clearfix">
+	</div>
+        <footer id="footer" class="inner">
+          Copyright © 2013 - forecho - Powered by <a href="https://github.com/tommy351/hexo">Hexo</a><br>
+- Ported theme <a href="https://github.com/nuklly/hexo-theme-greyshade">GreyShade</a> -
+        </footer>
         
-        <a href="http://weibo.com/18loving" target="_blank" class="icon-weibo" title="weibo"></a>
-        
-        
-        <a href="https://github.com/forecho" target="_blank" class="icon-github" title="github"></a>
-        
-        
-        
-        <a href="https://twitter.com/caizhenghai" target="_blank" class="icon-twitter" title="twitter"></a>
-        
-        
-        
-        
-        <a href="mailto:caizhenghai@gmail.com" target="_blank" class="icon-email" title="Email Me"></a>
-        
-    </div>
-	<section class="info">
-		<p class="l1">
-            This is Alvin Fan&#39;s personal blog.
-        </p>
-            <!-- <br/> -->
-        <p class="l2">
-			我不是为了输赢，我就是认真！
-        </p>
-	</section>
-	 
-		<p class="copyright">Powered by <a href="http://zespia.tw/hexo/" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/RagingCat/hexo-theme-ragingcat" target="_blank" title="hexo-theme-ragingcat">Raging Cat</a> © 2014
-		
-		<a href="http://i.forecho.com/about" target="_blank" title="forecho">forecho</a>
-		
-		</p>
-</div>
-</footer>
-    <script src="/js/jquery-2.0.3.min.js"></script>
-<script type="text/javascript">
-$(document).ready(function(){
-  $('.navbar').click(function(){
-    $('header nav').toggleClass('shownav');
-  });
-  var myWidth = 0;
-  function getSize(){
-    if( typeof( window.innerWidth ) == 'number' ) {
-      myWidth = window.innerWidth;
-    } else if( document.documentElement && document.documentElement.clientWidth) {
-      myWidth = document.documentElement.clientWidth;
-    };
-  };
-  var m = $('#main'),
-      a = $('#asidepart'),
-      c = $('.closeaside'),
-      o = $('.openaside');
-  $(window).resize(function(){
-    getSize();
-    if (myWidth >= 1024) {
-      $('header nav').removeClass('shownav');
-    }else
-    {
-      m.removeClass('moveMain');
-      a.css('display', 'block').removeClass('fadeOut');
-      o.css('display', 'none');
-      
-    }
-  });
-  c.click(function(){
-    a.addClass('fadeOut').css('display', 'none');
-    o.css('display', 'block').addClass('fadeIn');
-    m.addClass('moveMain');
-  });
-  o.click(function(){
-    o.css('display', 'none').removeClass('beforeFadeIn');
-    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');
-    m.removeClass('moveMain');
-  });
-  $(window).scroll(function(){
-    o.css("top",Math.max(80,260-$(this).scrollTop()));
-  });
-});
-</script>
-
-<script type="text/javascript">
-$(document).ready(function(){
-  var ai = $('.article-content>iframe'),
-      ae = $('.article-content>embed'),
-      t  = $('#toc'),
-      h  = $('article h2')
-      ah = $('article h2'),
-      ta = $('#toc.toc-aside'),
-      o  = $('.openaside'),
-      c  = $('.closeaside');
-  if(ai.length>0){
-    ai.wrap('<div class="video-container" />');
-  };
-  if(ae.length>0){
-   ae.wrap('<div class="video-container" />');
-  };
-  if(ah.length==0){
-    t.css('display','none');
-  }else{
-    c.click(function(){
-      ta.css('display', 'block').addClass('fadeIn');
-    });
-    o.click(function(){
-      ta.css('display', 'none');
-    });
-    $(window).scroll(function(){
-      ta.css("top",Math.max(140,320-$(this).scrollTop()));
-    });
-  };
-});
-</script>
+<script src="/js/slash.js"></script>
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
 
 
 <script type="text/javascript">
-$(document).ready(function(){
-  var $this = $('.share'),
-      url = $this.attr('data-url'),
-      encodedUrl = encodeURIComponent(url),
-      title = $this.attr('data-title'),
-      tsina = $this.attr('data-tsina');
-  var html = [
-  '<a href="#" class="overlay" id="qrcode"></a>',
-  '<div class="qrcode clearfix"><span>扫描二维码分享到微信朋友圈</span><a class="qrclose" href="#share"></a><strong>Loading...Please wait</strong><img id="qrcode-pic" data-src="http://s.jiathis.com/qrcode.php?url=' + encodedUrl + '"/></div>',
-  '<a href="#textlogo" class="article-back-to-top" title="Top"></a>',
-  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
-  '<a href="#qrcode" class="article-share-qrcode" title="QRcode"></a>',
-  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
-  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="Weibo"></a>',
-  '<span title="Share to"></span>'
-  ].join('');
-  $this.append(html);
-  $('.article-share-qrcode').click(function(){
-    var imgSrc = $('#qrcode-pic').attr('data-src');
-    $('#qrcode-pic').attr('src', imgSrc);
-    $('#qrcode-pic').load(function(){
-        $('.qrcode strong').text(' ');
-    });
-  });
-});
-</script>
+  var disqus_shortname = 'github-forecho';
+
+  (function(){
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  }());
+  </script>
 
 
-<script type="text/javascript">
-  var duoshuoQuery = {short_name:"iforecho"};
-  (function() {
-    var ds = document.createElement('script');
-    ds.type = 'text/javascript';ds.async = true;
-    ds.src = '//static.duoshuo.com/embed.js';
-    ds.charset = 'UTF-8';
-    (document.getElementsByTagName('head')[0]
-    || document.getElementsByTagName('body')[0]).appendChild(ds);
-  })();
-</script>
+
 
 
 
 <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
 <script src="/fancybox/jquery.fancybox.pack.js"></script>
 <script type="text/javascript">
-$(document).ready(function(){
-  $('.article-content').each(function(i){
-    $(this).find('img').each(function(){
-      if ($(this).parent().hasClass('fancybox')) return;
-      var alt = this.alt;
-      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
-      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
-    });
-    $(this).find('.fancybox').each(function(){
-      $(this).attr('rel', 'article' + i);
-    });
-  });
-  if($.fancybox){
-    $('.fancybox').fancybox();
-  }
-});
-</script>
-
-
-<script type="text/javascript">
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-ga('create', 'null', 'i.forecho.com');  
-ga('send', 'pageview');
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
 </script>
 
 
 
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
-});
-</script>
-<script type="text/javascript"
-   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
-  </body>
+
+      </div><!-- mid-col -->
+    </div><!-- container -->
+</body>
 </html>
